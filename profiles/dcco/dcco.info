@@ -3,6 +3,7 @@ description = Install for Drupal Camp Colorado
 version = VERSION
 core = 7.x
 
+; Core Modules
 dependencies[] = block
 dependencies[] = color
 dependencies[] = comment
@@ -28,6 +29,10 @@ dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = webform
 
+; Contrib Modules
+
+
+; Custom Modules
 dependencies[] = dcco_blog
 dependencies[] = dcco_sponsors
 dependencies[] = dcco_register
