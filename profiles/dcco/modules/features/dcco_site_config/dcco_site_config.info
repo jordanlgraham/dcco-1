@@ -1,0 +1,8 @@
+name = DCCO Site Config
+description = Creates a base configuration for DCCO
+core = 7.x
+package = DCCO
+version = 7.x-1.0
+project = dcco_site_config
+features[features_api][] = api:2
+project path = profiles/dcco/modules/features
