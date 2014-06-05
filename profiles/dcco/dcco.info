@@ -34,9 +34,15 @@ dependencies[] = module_filter
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = strongarm
+dependencies[] = migrate
+dependencies[] = migrate_ui
 
-; Custom Modules
+; Features
 dependencies[] = dcco_blog
 dependencies[] = dcco_sponsors
 dependencies[] = dcco_register
+dependencies[] = dcco_session_submission
+dependencies[] = dcco_site_config
+
+; Custom Modules
 dependencies[] = personal_information_profile
